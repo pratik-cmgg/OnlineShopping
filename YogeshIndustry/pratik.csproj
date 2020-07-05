@@ -1,0 +1,375 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8DB43F51-6D9A-4E12-BE3A-128F99995F01}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>YogeshIndustry</RootNamespace>
+    <AssemblyName>YogeshIndustry</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="add\11524666746129-Outdoor-desk.jpg" />
+    <Content Include="add\ec69fd8544376be88d6e676a9751172e.jpg" />
+    <Content Include="add\images.jpg" />
+    <Content Include="add\img.jpg" />
+    <Content Include="add\StyleSheet1.css" />
+    <Content Include="add\Textile-and-fashion.jpg" />
+    <Content Include="admin\AdminHome.aspx" />
+    <Content Include="admin\AdminLogin.aspx" />
+    <Content Include="admin\AdminLogout.aspx" />
+    <Content Include="admin\ViewCareers.aspx" />
+    <Content Include="admin\ViewEnquiries.aspx" />
+    <Content Include="admin\ViewOrderedProduct.aspx" />
+    <Content Include="admin\ViewOrders.aspx" />
+    <Content Include="admin\ViewUsers.aspx" />
+    <Content Include="ConfirmOrder.aspx" />
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\fontawesome-webfont.woff2" />
+    <Content Include="fonts\FontAwesome.otf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="images\admins\admin.png" />
+    <Content Include="images\admins\adminicon.png" />
+    <Content Include="images\admins\adminLogo.png" />
+    <Content Include="images\admins\login logo.png" />
+    <Content Include="images\admins\login.png" />
+    <Content Include="images\admins\LogoAdmi.png" />
+    <Content Include="images\cart\shopping_cart.png" />
+    <Content Include="images\Formal\f1.jpeg" />
+    <Content Include="images\Formal\f3.jpg" />
+    <Content Include="images\Formal\f4.jpg" />
+    <Content Include="images\Formal\f5.jpg" />
+    <Content Include="images\Formal\f6.jpg" />
+    <Content Include="images\Formal\fs2.jpg" />
+    <Content Include="images\Pareos\pr1.jpg" />
+    <Content Include="images\Pareos\pr2.jpg" />
+    <Content Include="images\Pareos\pr3.jpg" />
+    <Content Include="images\Pareos\pr4.jpg" />
+    <Content Include="images\Pareos\pr5.jpg" />
+    <Content Include="images\Pareos\pr6.jpg" />
+    <Content Include="images\Ponchos\p1.jpg" />
+    <Content Include="images\Ponchos\p2.jpg" />
+    <Content Include="images\Ponchos\p3.jpg" />
+    <Content Include="images\Ponchos\p4.jpg" />
+    <Content Include="images\Ponchos\p5.jpg" />
+    <Content Include="images\Ponchos\p6.jpg" />
+    <Content Include="images\user\userl.jpg" />
+    <Content Include="Resumes\sem6.docx" />
+    <Content Include="Resumes\sem6.pdf" />
+    <Content Include="Main.Master" />
+    <Content Include="admin\AdminMaster.Master" />
+    <Content Include="CartMaster.Master" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Careers.aspx" />
+    <Content Include="Contact.aspx" />
+    <Content Include="css\bootstrap-products.css" />
+    <Content Include="css\bootstrap-theme.css" />
+    <Content Include="css\bootstrap-theme.min.css" />
+    <Content Include="css\bootstrap.css" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\flexslider.css" />
+    <Content Include="css\font-awesome.css" />
+    <Content Include="css\font-awesome.min.css" />
+    <Content Include="css\style.css" />
+    <Content Include="Enquiries.aspx" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="FormalShirts.aspx" />
+    <Content Include="Home.aspx" />
+    <Content Include="images\about\about1.jpg" />
+    <Content Include="images\about\about2.jpg" />
+    <Content Include="images\about\about3.JPEG" />
+    <Content Include="images\client\client1.png" />
+    <Content Include="images\client\client2.png" />
+    <Content Include="images\client\client3.png" />
+    <Content Include="images\client\client4.png" />
+    <Content Include="images\client\client5.png" />
+    <Content Include="images\client\client6.png" />
+    <Content Include="images\footer\footer1.jpg" />
+    <Content Include="images\footer\footer2.jpg" />
+    <Content Include="images\footer\footer3.jpg" />
+    <Content Include="images\footer\footer4.jpg" />
+    <Content Include="images\footer\footer5.jpg" />
+    <Content Include="images\footer\footer6.jpg" />
+    <Content Include="images\portfolio\portfolio1.jpg" />
+    <Content Include="images\portfolio\portfolio2.jpg" />
+    <Content Include="images\portfolio\portfolio3.jpg" />
+    <Content Include="images\portfolio\portfolio4.jpg" />
+    <Content Include="images\portfolio\portfolio5.jpg" />
+    <Content Include="images\portfolio\portfolio6.jpg" />
+    <Content Include="images\portfolio\portfolio7.jpg" />
+    <Content Include="images\portfolio\portfolio8.jpg" />
+    <Content Include="images\slider\slider2.jpg" />
+    <Content Include="images\slider\slider1.jpg" />
+    <Content Include="images\slider\slider3.jpg" />
+    <Content Include="js\bootstrap-products.js" />
+    <Content Include="js\bootstrap.js" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\jquery.flexslider.js" />
+    <Content Include="js\jquery.inview.js" />
+    <Content Include="js\jquery.min.js" />
+    <Content Include="js\script.js" />
+    <Content Include="Pareos.aspx" />
+    <Content Include="Ponchos.aspx" />
+    <Content Include="SignIn.aspx" />
+    <Content Include="SignUp.aspx" />
+    <Content Include="ViewCart.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="admin\AdminHome.aspx.cs">
+      <DependentUpon>AdminHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\AdminHome.aspx.designer.cs">
+      <DependentUpon>AdminHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\AdminLogin.aspx.cs">
+      <DependentUpon>AdminLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\AdminLogin.aspx.designer.cs">
+      <DependentUpon>AdminLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\AdminLogout.aspx.cs">
+      <DependentUpon>AdminLogout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\AdminLogout.aspx.designer.cs">
+      <DependentUpon>AdminLogout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\AdminMaster.Master.cs">
+      <DependentUpon>AdminMaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\AdminMaster.Master.designer.cs">
+      <DependentUpon>AdminMaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="admin\ViewCareers.aspx.cs">
+      <DependentUpon>ViewCareers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\ViewCareers.aspx.designer.cs">
+      <DependentUpon>ViewCareers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\ViewEnquiries.aspx.cs">
+      <DependentUpon>ViewEnquiries.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\ViewEnquiries.aspx.designer.cs">
+      <DependentUpon>ViewEnquiries.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\ViewOrderedProduct.aspx.cs">
+      <DependentUpon>ViewOrderedProduct.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\ViewOrderedProduct.aspx.designer.cs">
+      <DependentUpon>ViewOrderedProduct.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\ViewOrders.aspx.cs">
+      <DependentUpon>ViewOrders.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\ViewOrders.aspx.designer.cs">
+      <DependentUpon>ViewOrders.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\ViewUsers.aspx.cs">
+      <DependentUpon>ViewUsers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\ViewUsers.aspx.designer.cs">
+      <DependentUpon>ViewUsers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App_Code\Cart.cs" />
+    <Compile Include="App_Code\CartItem.cs" />
+    <Compile Include="Careers.aspx.cs">
+      <DependentUpon>Careers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Careers.aspx.designer.cs">
+      <DependentUpon>Careers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CartMaster.Master.cs">
+      <DependentUpon>CartMaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CartMaster.Master.designer.cs">
+      <DependentUpon>CartMaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="ConfirmOrder.aspx.cs">
+      <DependentUpon>ConfirmOrder.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ConfirmOrder.aspx.designer.cs">
+      <DependentUpon>ConfirmOrder.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contact.aspx.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contact.aspx.designer.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Enquiries.aspx.cs">
+      <DependentUpon>Enquiries.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Enquiries.aspx.designer.cs">
+      <DependentUpon>Enquiries.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormalShirts.aspx.cs">
+      <DependentUpon>FormalShirts.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormalShirts.aspx.designer.cs">
+      <DependentUpon>FormalShirts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Main.Master.cs">
+      <DependentUpon>Main.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Main.Master.designer.cs">
+      <DependentUpon>Main.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Pareos.aspx.cs">
+      <DependentUpon>Pareos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pareos.aspx.designer.cs">
+      <DependentUpon>Pareos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ponchos.aspx.cs">
+      <DependentUpon>Ponchos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ponchos.aspx.designer.cs">
+      <DependentUpon>Ponchos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SignIn.aspx.cs">
+      <DependentUpon>SignIn.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SignIn.aspx.designer.cs">
+      <DependentUpon>SignIn.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SignUp.aspx.cs">
+      <DependentUpon>SignUp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SignUp.aspx.designer.cs">
+      <DependentUpon>SignUp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ViewCart.aspx.cs">
+      <DependentUpon>ViewCart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ViewCart.aspx.designer.cs">
+      <DependentUpon>ViewCart.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>13152</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:13152/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

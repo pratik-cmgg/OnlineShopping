@@ -1,0 +1,5 @@
+D:\pratik\kirti\kirtiproject\YogeshIndustry\bin\YogeshIndustry.dll
+D:\pratik\kirti\kirtiproject\YogeshIndustry\bin\YogeshIndustry.pdb
+D:\pratik\kirti\kirtiproject\YogeshIndustry\obj\Debug\kirti.csprojResolveAssemblyReference.cache
+D:\pratik\kirti\kirtiproject\YogeshIndustry\obj\Debug\YogeshIndustry.dll
+D:\pratik\kirti\kirtiproject\YogeshIndustry\obj\Debug\YogeshIndustry.pdb

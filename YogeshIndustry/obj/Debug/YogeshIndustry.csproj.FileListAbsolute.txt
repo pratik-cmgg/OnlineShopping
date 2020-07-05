@@ -1,0 +1,11 @@
+D:\YogeshIndustry\YogeshIndustry\bin\YogeshIndustry.dll.config
+D:\YogeshIndustry\YogeshIndustry\bin\YogeshIndustry.dll
+D:\YogeshIndustry\YogeshIndustry\bin\YogeshIndustry.pdb
+D:\YogeshIndustry\YogeshIndustry\obj\Debug\YogeshIndustry.dll
+D:\YogeshIndustry\YogeshIndustry\obj\Debug\YogeshIndustry.pdb
+D:\YogeshIndustry\YogeshIndustry\obj\Debug\YogeshIndustry.csprojResolveAssemblyReference.cache
+C:\Users\Acer\Downloads\YogeshIndustry\YogeshIndustry\bin\YogeshIndustry.dll
+C:\Users\Acer\Downloads\YogeshIndustry\YogeshIndustry\bin\YogeshIndustry.pdb
+C:\Users\Acer\Downloads\YogeshIndustry\YogeshIndustry\obj\Debug\YogeshIndustry.csprojResolveAssemblyReference.cache
+C:\Users\Acer\Downloads\YogeshIndustry\YogeshIndustry\obj\Debug\YogeshIndustry.dll
+C:\Users\Acer\Downloads\YogeshIndustry\YogeshIndustry\obj\Debug\YogeshIndustry.pdb

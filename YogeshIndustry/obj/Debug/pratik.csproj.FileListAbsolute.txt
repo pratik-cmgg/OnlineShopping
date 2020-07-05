@@ -1,0 +1,22 @@
+D:\pratik\kirti\kirtiproject\YogeshIndustry\bin\YogeshIndustry.dll
+D:\pratik\kirti\kirtiproject\YogeshIndustry\bin\YogeshIndustry.pdb
+D:\pratik\kirti\kirtiproject\YogeshIndustry\obj\Debug\pratik.csprojResolveAssemblyReference.cache
+D:\pratik\kirti\kirtiproject\YogeshIndustry\obj\Debug\YogeshIndustry.dll
+D:\pratik\kirti\kirtiproject\YogeshIndustry\obj\Debug\YogeshIndustry.pdb
+D:\pratik\impepro\kirtiproject\YogeshIndustry\bin\YogeshIndustry.dll
+D:\pratik\impepro\kirtiproject\YogeshIndustry\bin\YogeshIndustry.pdb
+D:\pratik\impepro\kirtiproject\YogeshIndustry\obj\Debug\pratik.csprojResolveAssemblyReference.cache
+D:\pratik\impepro\kirtiproject\YogeshIndustry\obj\Debug\YogeshIndustry.dll
+D:\pratik\impepro\kirtiproject\YogeshIndustry\obj\Debug\YogeshIndustry.pdb
+D:\impepro\pratikpro\YogeshIndustry\bin\YogeshIndustry.dll
+D:\impepro\pratikpro\YogeshIndustry\bin\YogeshIndustry.pdb
+D:\impepro\pratikpro\YogeshIndustry\obj\Debug\pratik.csprojResolveAssemblyReference.cache
+D:\impepro\pratikpro\YogeshIndustry\obj\Debug\YogeshIndustry.dll
+D:\impepro\pratikpro\YogeshIndustry\obj\Debug\YogeshIndustry.pdb
+D:\New folder (2)\impepro\pratikpro\YogeshIndustry\bin\YogeshIndustry.dll.config
+D:\New folder (2)\impepro\pratikpro\YogeshIndustry\bin\YogeshIndustry.dll
+D:\New folder (2)\impepro\pratikpro\YogeshIndustry\bin\YogeshIndustry.pdb
+D:\New folder (2)\impepro\pratikpro\YogeshIndustry\obj\Debug\pratik.csprojAssemblyReference.cache
+D:\New folder (2)\impepro\pratikpro\YogeshIndustry\obj\Debug\pratik.csproj.CoreCompileInputs.cache
+D:\New folder (2)\impepro\pratikpro\YogeshIndustry\obj\Debug\YogeshIndustry.dll
+D:\New folder (2)\impepro\pratikpro\YogeshIndustry\obj\Debug\YogeshIndustry.pdb
